@@ -58,11 +58,6 @@
             <artifactId>spring-boot-starter-dubbo</artifactId>
             <version>1.0.0</version>
         </dependency>
-       <dependency>
-            <groupId>com.zc</groupId>
-            <artifactId>common</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
-        </dependency>
         <!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-aop -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -86,8 +81,23 @@
                 </exclusion>
             </exclusions>
         </dependency>
-    </dependencies>
 
+   <!--     <dependency>
+            <groupId>com.zc</groupId>
+            <artifactId>common</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>-->
+
+    </dependencies>
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>com.zc</groupId>
+                <artifactId>common</artifactId>
+                <version>0.0.1-SNAPSHOT</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
     <build>
         <plugins>
             <plugin>
@@ -105,5 +115,4 @@
             </plugin>
         </plugins>
     </build>
-
 </project>

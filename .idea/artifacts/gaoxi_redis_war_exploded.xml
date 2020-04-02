@@ -70,9 +70,6 @@
           <element id="library" level="project" name="Maven: junit:junit:4.12" />
           <element id="library" level="project" name="Maven: org.hamcrest:hamcrest-core:2.1" />
           <element id="library" level="project" name="Maven: io.netty:netty:3.7.0.Final" />
-          <element id="archive" name="common-0.0.1-SNAPSHOT.jar">
-            <element id="module-output" name="gaoxi-common" />
-          </element>
           <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-starter-aop:2.2.2.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-aop:5.2.5.RELEASE" />
           <element id="library" level="project" name="Maven: org.aspectj:aspectjweaver:1.9.5" />
