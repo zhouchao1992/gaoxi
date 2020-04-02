@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="gaoxi-controller:war">
+    <output-path>$PROJECT_DIR$/gaoxi-controller/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>gaoxi-controller</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="contro-0.0.1-SNAPSHOT.war">
+      <element id="artifact" artifact-name="gaoxi-controller:war exploded" />
+    </root>
+  </artifact>
+</component>

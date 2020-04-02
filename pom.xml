@@ -13,6 +13,7 @@
     <groupId>com.zc</groupId>
     <artifactId>gaoxi</artifactId>
     <version>0.0.1-SNAPSHOT</version>
+    <packaging>pom</packaging>
     <name>gaoxi</name>
     <description>Demo project for Spring Boot</description>
 
@@ -27,6 +28,9 @@
         <module>gaoxi-controller</module>
         <module>gaoxi-file</module>
         <module>gaoxi-redis</module>
+        <module>gaoxi-config</module>
+        <module>gaoxi-gateway</module>
+        <module>gaoxi-security</module>
     </modules>
 
     <dependencies>
@@ -54,7 +58,7 @@
             <artifactId>spring-boot-starter-dubbo</artifactId>
             <version>1.0.0</version>
         </dependency>
-        <dependency>
+       <dependency>
             <groupId>com.zc</groupId>
             <artifactId>common</artifactId>
             <version>0.0.1-SNAPSHOT</version>
@@ -89,6 +93,15 @@
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>2.19.1</version>
+                <configuration>
+                    <skipTests>true</skipTests>    <!--默认关掉单元测试 -->
+                </configuration>
             </plugin>
         </plugins>
     </build>

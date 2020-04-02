@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="gaoxi-user" />
+        <module name="gaoxi-config" />
+        <module name="gaoxi-file" />
+        <module name="gaoxi-security" />
+        <module name="gaoxi-redis" />
+        <module name="gaoxi-gateway" />
+        <module name="gaoxi-common" />
+        <module name="gaoxi-controller" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="gaoxi-common" target="1.8" />
+      <module name="gaoxi-config" target="1.8" />
+      <module name="gaoxi-controller" target="1.8" />
+      <module name="gaoxi-file" target="1.8" />
+      <module name="gaoxi-gaoxi" target="1.8" />
+      <module name="gaoxi-gateway" target="1.8" />
+      <module name="gaoxi-redis" target="1.8" />
+      <module name="gaoxi-security" target="1.8" />
+      <module name="gaoxi-user" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="gaoxi-common" options="-parameters" />
+      <module name="gaoxi-config" options="-parameters" />
+      <module name="gaoxi-controller" options="-parameters" />
+      <module name="gaoxi-file" options="-parameters" />
+      <module name="gaoxi-gaoxi" options="" />
+      <module name="gaoxi-gateway" options="-parameters" />
+      <module name="gaoxi-redis" options="-parameters" />
+      <module name="gaoxi-security" options="-parameters" />
+      <module name="gaoxi-user" options="-parameters" />
+    </option>
+  </component>
+</project>

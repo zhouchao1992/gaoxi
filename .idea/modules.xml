@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/gaoxi-common/common.iml" filepath="$PROJECT_DIR$/gaoxi-common/common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gaoxi-config/gaoxi-config.iml" filepath="$PROJECT_DIR$/gaoxi-config/gaoxi-config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gaoxi-controller/contro.iml" filepath="$PROJECT_DIR$/gaoxi-controller/contro.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gaoxi-file/file.iml" filepath="$PROJECT_DIR$/gaoxi-file/file.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/gaoxi-gaoxi.iml" filepath="$PROJECT_DIR$/.idea/gaoxi-gaoxi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gaoxi-gateway/gaoxi-gateway.iml" filepath="$PROJECT_DIR$/gaoxi-gateway/gaoxi-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gaoxi-redis/redis.iml" filepath="$PROJECT_DIR$/gaoxi-redis/redis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gaoxi-security/gaoxi-security.iml" filepath="$PROJECT_DIR$/gaoxi-security/gaoxi-security.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gaoxi-user/user.iml" filepath="$PROJECT_DIR$/gaoxi-user/user.iml" />
+    </modules>
+  </component>
+</project>

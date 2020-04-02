@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="gaoxi-common:war">
+    <output-path>$PROJECT_DIR$/gaoxi-common/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>gaoxi-common</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="common-0.0.1-SNAPSHOT.war">
+      <element id="artifact" artifact-name="gaoxi-common:war exploded" />
+    </root>
+  </artifact>
+</component>
